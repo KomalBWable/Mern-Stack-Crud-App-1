@@ -14,8 +14,8 @@
 }
 
 thead {
-  background-color: #6D7AE0;
-  border-radius: 100px;
+  background-color: black;
+  border-radius: 150px;
 }
 
 tr {
@@ -23,7 +23,7 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: #F8F6FF;
+  background-color: #f8f6ff;
 }
 
 th {
@@ -41,22 +41,22 @@ th:last-child {
 }
 
 td {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: lighter;
   padding: 1rem;
-  color: #808080;
+  color: black;
   line-height: 1.4;
 }
 
-.No-Students {
+.No-Employee {
   font-weight: bold;
   text-align: center;
   margin-top: 100px;
 }
 
 .Spinner-Wrapper {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   height: 100vh;
   align-items: center;
 }

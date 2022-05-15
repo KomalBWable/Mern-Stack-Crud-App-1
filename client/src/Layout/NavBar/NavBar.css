@@ -1,5 +1,5 @@
 .NavBar-Wrapper {
-  background-color: #6200ea;
+  background-color: darkred;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,9 +13,9 @@
 }
 
 .NavBar-Link {
-  padding: .8rem;
+  padding: 0.8rem;
   color: #fff;
-  transition: .7s color ease;
+  transition: 0.7s color ease;
 }
 
 .NavBar-Link:hover {

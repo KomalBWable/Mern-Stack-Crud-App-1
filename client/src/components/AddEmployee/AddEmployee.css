@@ -1,24 +1,36 @@
-.AddStudent-Wrapper {
+.AddEmployee-Wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.Add-Student-Input {
+.Add-Employee-Input {
   padding: 4px 11px;
   width: 55vw;
   height: 32px;
   font-size: 14px;
   line-height: 1.5;
-  color: rgba(0,0,0,.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid darkgrey;
   border-radius: 4px;
   outline: none;
 }
-
-.Add-Student-Submit, .Add-Student-Reset {
+.selectClass {
+  border-radius: 4px;
+  border: 1px solid darkgrey;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  width: 57vw;
+  margin-top: 18px;
+  margin-bottom: 17px;
+  padding: 11px 5px;
+  margin-left: 19px;
+  outline: none;
+}
+.Add-Employee-Submit,
+.Add-Employee-Reset {
   width: 45px;
   height: 40px;
   color: #fff;
@@ -29,12 +41,12 @@
   outline: none;
 }
 
-.Add-Student-Submit {
+.Add-Employee-Submit {
   background-color: #6200ea;
 }
 
-.Add-Student-Reset {
-  background-color: red
+.Add-Employee-Reset {
+  background-color: red;
 }
 
 label {
